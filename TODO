@@ -1,0 +1,62 @@
+- SDLX -
+Display an image  DONE
+Display backgroundm DONE
+Clear screen    DONE
+Get mouse click and position DONE   
+Timer and fps DONE
+Display image in layers DONE
+Display text
+- Game -
+Simple hitbox DONE
+Move images DONE
+Algorithm to randomize start position :
+    - Wanted position : 
+        - Pick a random crowd face DONE
+        - Attenpt to hid behind it (offset the position in x and y)DONE
+    - All random or clusters
+        - Cluster :
+            - Random width and hieght (within a certain range)
+            - Moving or non moving
+                -Moving : 
+                    - Pick movement functions:
+                        - 8 caridnal directions
+                        - Sin
+                        - Circle
+    - Difficulty goes up :
+        - More faces (up to acertain cap)
+        - Position offset decreases (but never completely matches)
+    
+Timer goes up by 15 sec for every correct and down by 5 for every wrong
+Start with 15 secss
+Resizeable window                    
+
+
+Check positions :
+    X Circle
+    X Random
+    X LINE
+
+Check movement:
+    X Circle
+    X LINE
+    X Sine
+    X Random
+
+X Next level when found
+X Level difficulty (add more sprites)
+
+X Correct pffset for wanted sprite
+X Refactor
+X Timer add and remove when click
+X Display timer and level
+    X SDLX simple ttf :
+        X Set font
+        X Render message (msg, size (auto), pos (auto, auto))
+
+X End screen (lvl + score)
+X Assets (cats, title, thumbnail)
+X intermediate screen ( 5 sec pause, display cat to find)
+Name ?
+X Title screen ( cat ran away, help find them)
+Tweak assets size and max / min number
+Fix leaks
